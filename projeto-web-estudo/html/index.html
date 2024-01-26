@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="../js/load.js"></script>
+    <style>
+        body{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo da Forca</h1>
+    
+    <img id="imagem_da_forca" src="../img/forca-nivel-1.png" alt="foto da pessoa na forca" width="500" height="400">
+
+    <h2>Jogador</h2>
+    <p id="num_chances">Total de chances: 6</p>
+    <p id="palavra_secreta"></p>
+
+    <label id="input_do_usuario" for="campo_de_texto"> Insira uma letra ou a palavra final: <input type="text" id="campo_de_texto" rtype="text"></label>
+
+    <p id="resposta"></p>
+
+    <h2>Lista de letras e palavras inseridas</h2>
+    <ul id="lista_de_letras">
+        
+    </ul>
+</body>
+</html>
